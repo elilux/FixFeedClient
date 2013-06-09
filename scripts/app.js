@@ -21,6 +21,6 @@ requirejs.config({
 });
 
 define(['backbone', 'listContainer', 'plumberCollection'], function (Backbone, listContainer, plumberCollection) {
-    var plumberCollection = new plumberCollection({});
+    var plumberCollection = new plumberCollection();
     var plumberList = new listContainer({collection: plumberCollection});
 });
